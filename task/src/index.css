@@ -1,0 +1,102 @@
+
+
+html,body{
+  background-color: #9266ff;
+}
+
+.wrapper{
+  max-width: 1200px;
+  height: auto;
+  margin: 30px auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+h3{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-and-add-userBox{
+  width: 500px;
+  margin: auto;
+  height: auto;
+}
+
+.form-and-add-userBox .input-and-button{
+  height: 100px;
+  
+  overflow: hidden;
+  display: flex;
+  
+}
+
+.form-and-add-userBox .input-and-button input{
+  background-color: rgba(27, 112, 137, 1);
+  border: 0; 
+  color: #fff;
+  width: 200px;
+  height: 50px;
+  margin: 20px;
+  padding: 0 20px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.form-and-add-userBox .input-and-button .button{
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  border: 0;
+  background-color:rgba(202, 156, 24, 1); 
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.form-and-add-userBox .input-and-button .button.edit{
+  width: auto;
+  padding: 0px 10px;
+}
+
+.form-and-add-userBox .input-and-button .button button{
+  outline: none;
+  cursor: pointer;
+  background-color:rgba(202, 156, 24, 1); 
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding: 20px;
+}
+
+.todo{
+  margin: 15px 0px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid;
+  padding-bottom: 5px;
+}
+
+.todo input{
+  margin-right: 5px;
+}
+
+.todo span{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.todo .edit-and-delete{
+  display: flex;
+  cursor: pointer;
+}
+
+.delete-all{
+  padding: 10px;
+  cursor: pointer;
+}
+.texthead{
+  text-align: center;
+  color: #fff;
+}
